@@ -1,47 +1,20 @@
 import React, { Component } from "react"
-import logo from "./logo.svg"
 import "./App.css"
-
-class LambdaDemo extends Component {
-  constructor(props) {
-    super(props)
-    this.state = { loading: false, msg: null }
-  }
-
-  handleClick = api => e => {
-    e.preventDefault()
-
-    this.setState({ loading: true })
-    fetch("/.netlify/functions/" + api)
-      .then(response => response.json())
-      .then(json => this.setState({ loading: false, msg: json.msg }))
-  }
-
-  render() {
-    const { loading, msg } = this.state
-
-    return (
-      <p>
-        <button onClick={this.handleClick("hello")}>{loading ? "Loading..." : "Call Lambda"}</button>
-        <button onClick={this.handleClick("async-dadjoke")}>{loading ? "Loading..." : "Call Async Lambda"}</button>
-        <br />
-        <span>{msg}</span>
-      </p>
-    )
-  }
-}
+import logo from "./img/FULL_LOGO.png"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class App extends Component {
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <LambdaDemo />
-        </header>
+      <div>
+        <img id='main_background' src={logo} alt="Feragon Coding"/>
+        <div id="social_media">
+          <a href="https://www.linkedin.com/in/feragon" target="_blank" className="fa"><FontAwesomeIcon icon={['fab','linkedin-in']}/></a>
+          <a href="https://www.youtube.com/channel/UCvbgjvWT19fHzM35ocvYZwg" target="_blank" className="fa"><FontAwesomeIcon icon={['fab','youtube']}/></a>
+          <a href="https://www.instagram.com/feragoncoding/" target="_blank" className="fa"><FontAwesomeIcon icon={['fab','instagram']}/></a>
+          <a href="https://www.udemy.com/course/domina-sas-programming-ya/" target="_blank" className="fa"><FontAwesomeIcon icon={['fas','graduation-cap']}/></a>
+        </div>
       </div>
     )
   }

@@ -1,0 +1,21 @@
+#badge-header {
+  text-align: center;
+}
+
+#badge-platinum{
+  width: 160px;
+  height: 160px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#badge-col{
+  text-align: center;
+}
+
+#badge-img{
+  width: 120px;
+  height: 120px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

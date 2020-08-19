@@ -1,0 +1,26 @@
+#deadLine {
+  background-color:white;
+  height: 100vh;
+}
+
+#deadLine-header {
+  background-color: red;
+  height: 60px;
+}
+
+#deadLine-body {
+  background-color:white;
+  bottom: 0px;
+}
+
+#deadline-logo {
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+#deadline-logo:hover {
+  opacity: 0.7;
+}

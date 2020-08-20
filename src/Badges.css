@@ -9,13 +9,44 @@
   margin-bottom: 20px;
 }
 
-#badge-col{
+#badges-list-container{
+  overflow-y: scroll;
+  height: 60vh;
+}
+
+#badges-list-container::-webkit-scrollbar-thumb {
+  background-color: red; 
+}
+
+.badge-col{
   text-align: center;
 }
 
-#badge-img{
+.badge-img{
   width: 120px;
   height: 120px;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 25px;
+}
+
+.badge-img:hover{
+  width: 110px;
+  height: 110px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.badge-col-desc-cont{
+  position: absolute;
+  z-index: 2;
+  text-align: left;
+  margin: auto;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(255,0,0,.5);
+  width: 100%;
+  height: 100%;
+  color: white;
 }

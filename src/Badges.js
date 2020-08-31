@@ -56,7 +56,7 @@ function BadgesList(props){
 }
 
 const badgesList = [
-  {key: 1, desc: 'Subir primer video a Youtube', category: 'Bronce', name:'YouTube n00b', lockSrc: '/badges/badge_locked_1.png', unlockSrc:'/badges/badge_1.png', earned:false},
+  {key: 1, desc: 'Subir primer video a Youtube', category: 'Bronce', name:'YouTube n00b', lockSrc: '/badges/badge_locked_1.png', unlockSrc:'/badges/badge_1.png', earned:true},
   {key: 2, desc: 'Subir 15avo video a Youtube', category: 'Bronce', name:'YouTube try', lockSrc: '/badges/badge_locked_2.png', unlockSrc:'/badges/badge_2.png', earned:false},
   {key: 3, desc: 'Subir 50 videos a Youtube ', category: 'Plata', name:'Youtube R', lockSrc: '/badges/badge_locked_3.png', unlockSrc:'/badges/badge_3.png', earned:false},
   {key: 4, desc: 'Obtener 1000 seguidores', category: 'Plata', name:'Influencer', lockSrc: '/badges/badge_locked_4.png', unlockSrc:'/badges/badge_4.png', earned:false},
@@ -64,8 +64,8 @@ const badgesList = [
   {key: 6, desc: 'Ganar $1000 en Udemy', category: 'Plata', name:'Meta de curso', lockSrc: '/badges/badge_locked_6.png', unlockSrc:'/badges/badge_6.png', earned:false},
   {key: 7, desc: 'Ganar $5000 en Udemy', category: 'Oro', name:'Nunca imagine llegar a esto', lockSrc: '/badges/badge_locked_7.png', unlockSrc:'/badges/badge_7.png', earned:false},
   {key: 8, desc: 'Completar curso SAS Programming', category: 'Bronce', name:'El primero es el mas dificil', lockSrc: '/badges/badge_locked_8.png', unlockSrc:'/badges/badge_8.png', earned:false},
-  {key: 9, desc: 'Completar curso PL/SQL', category: 'Plata', name:'Cambiando de tema', lockSrc: '/badges/badge_locked_9.png', unlockSrc:'/badges/badge_9.png', earned:false},
-  {key: 10, desc: 'Completar curso Certificate SAS Base', category: 'Plata', name:'Ayudaita en la certificacion', lockSrc: '/badges/badge_locked_10.png', unlockSrc:'/badges/badge_10.png', earned:false},
+  {key: 9, desc: 'Completar curso Certificate SAS Base', category: 'Plata', name:'Ayudaita en la certificacion', lockSrc: '/badges/badge_locked_9.png', unlockSrc:'/badges/badge_9.png', earned:false},
+  {key: 10, desc: 'Completar curso PL/SQL', category: 'Plata', name:'Cambiando de tema', lockSrc: '/badges/badge_locked_10.png', unlockSrc:'/badges/badge_10.png', earned:false},
   {key: 11, desc: 'Obtener Aleman A1', category: 'Bronce', name:'Hallo!', lockSrc: '/badges/badge_locked_11.png', unlockSrc:'/badges/badge_11.png', earned:false},
   {key: 12, desc: 'Obtener Aleman A2', category: 'Bronce', name:'Nicht so Anfanger', lockSrc: '/badges/badge_locked_12.png', unlockSrc:'/badges/badge_12.png', earned:false},
   {key: 13, desc: 'Obtener Aleman B1', category: 'Plata', name:'Ich spreche Deutsch', lockSrc: '/badges/badge_locked_13.png', unlockSrc:'/badges/badge_13.png', earned:false},
